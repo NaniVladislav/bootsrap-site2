@@ -1,0 +1,145 @@
+
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarsRent.md - Închirieri Auto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .hero {
+            background: #ff4d4d;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .services {
+            background: #f8f9fa;
+            padding: 50px 20px;
+        }
+        footer {
+            background: #212529;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="#">CarsRent.md</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Acasă</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/img/parc-auto.html">Parc Auto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/img/servicii.html">Servicii</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacte.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="display-4">Închirieri Auto Chișinău</h1>
+            <p class="lead">Selectează perioada de închiriere și explorează Moldova cu confort.</p>
+            <a href="#parc-auto" class="btn btn-light btn-lg">Vezi Mașinile</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="parc-auto" class="services">
+        <div class="container">
+            <h2 class="text-center mb-5">Parc Auto</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/img1.jpg" class="card-img-top" alt="Mașină 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Model Economic</h5>
+                            <p class="card-text">Preț accesibil, ideal pentru oraș.</p>
+                            <a href="#" class="btn btn-danger">Rezervă acum</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/img/img2.jpg" class="card-img-top" alt="Mașină 2">
+                        <div class="card-body">
+                            <h5 class="card-title">SUV Premium</h5>
+                            <p class="card-text">Spațios, perfect pentru familii.</p>
+                            <a href="#" class="btn btn-danger">Rezervă acum</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/img/img3.jpg" class="card-img-top" alt="Mașină 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Mașină de Lux</h5>
+                            <p class="card-text">Confort și stil pentru ocazii speciale.</p>
+                            <a href="#" class="btn btn-danger">Rezervă acum</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact</h2>
+            <p class="text-center">Pentru mai multe informații, nu ezita să ne contactezi!</p>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label">Nume</label>
+                        <input type="text" class="form-control" id="name" placeholder="Introdu numele tău">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Introdu adresa de email">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mesaj</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Scrie mesajul tău aici..."></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-danger">Trimite</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CarsRent.md. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
